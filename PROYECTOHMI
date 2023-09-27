@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>Bootstrap demo</title>
+
+</head>
+
+<body>
+
+<!-- Contenido de tu página aquí -->
+<nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">DEPARTAMENTO DE INGENIERÍA BIOMÉDICA </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="menu">Menú</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Equipo en Standby</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Equipo en préstamo</a>
+              </li>
+        
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Generar ordenes de servicio
+              </a>
+              <ul class="dropdown-menu">
+
+                <li><a class="dropdown-item" href="/img/ocorrectivo.HTML">Orden de servicio correctivo</a></li>
+                <li><a class="dropdown-item" href="/img/ofi_central.html">Orden de servicio a oficinas centrales</a></li>
+
+              
+                
+                
+              </ul>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!--SLIDER DE IMAGENES-->
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/imagenes/hmi.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/imagenes/bbs.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+         
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/imagenes/4-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!------------ TEXTO-->
+  <section class="w-50 mx-auto text-center pt-5" id="intro">
+    <h1 class="p-3 fs-2 border-top border-3 text-center">Misión: <span class="text-primary"></span></h1>
+    <p class="p-2 text-justify"><span class="text-primary">Proporcionar servicios de atención médica especializada en salud materno infantil a la población que demanda estos servicios mediante acciones seguras, eficientes y de calidad, enfocadas en la prevención, sostenimiento y restablecimiento de su salud.</span></p>
+
+    <h1 class="p-3 fs-2 border-top border-3 text-center">Visión: <span class="text-primary"></span></h1>
+    <p class="p-2"><span class="text-primary">Ser un hospital líder en la atención integral de salud materno infantil con calidad y trato digno fomentados con el nivel más alto de profesionalismo.</span></p>
+
+    <h1 class="p-3 fs-2 border-top border-3 text-center">Valores: <span class="text-primary"></span></h1>
+    <p class="p-2 text-justify"><span class="text-primary">Respeto, trato digno, compromiso, responsabilidad, disciplina, humanismo, confidencialidad.</span></p>
+</section>
+<section class="container-fluid">
+    <div class="row w-75 mx-auto my-5 servcicio-fila">
+        <div class= "col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+            <img src="./img/imagenes/cl.png" alt="preventivo" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 p-1 text-center">Mantenimiento preventivo</h3>
+                <p class="px-4 text-justify">Se busca mantener en buenas condiciones el funcionamiento de los equipos o instrumentos médicos</p>
+            </div>
+        </div>
+        <div class= "col-lg-6 col-md-12 col-sm-12 d-flex  my-5 icono-wrap">
+            <img src="./img/imagenes/pre.png" alt="preventivo" width="200" height="200">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 p-1 text-center">Mantenimiento correctivo</h3>
+                <p class="px-4 text-justify">Se llevan a cabo las acciones y procedimientos necesarios para reparar los equipos médicos o dispositivos cuando presentan fallas o averías. El objetivo es restablecer su funcionamiento normal y garantizar la seguridad y eficacia en la atención médica.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 col-md-12 col-sm-12 d-flex my-5 icono-wrap text-center">
+      <img src="./img/imagenes/mapa.PNG" alt="preventivo" width="350" height="300" class="mx-auto">
+      <div>
+          <h3 class="fs-5 mt-4 px-4 p-1 text-center">Ubicación</h3>
+          <p class="px-4 text-justify">Nos ubicamos al sur de la ciudad en la C. 80 #300 col renacimiento C.P 97298 Mérida, Yuc.</p>
+          
+      </div>
+  </div>
+  </section>
+  
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
