@@ -1,0 +1,11 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background: #ff9a9a;
+    background: -webkit-linear-gradient(to right, #000000, #7e46ff);
+    background: linear-gradient(to right, #c5faff, #249cd3);
+}
+
+.centered {
+    text-align: center !important;
+    vertical-align: middle !important;
+}
