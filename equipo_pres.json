@@ -1,0 +1,10 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"bd_lu"},
+{"type":"table","name":"equipo_pres","database":"bd_lu","data":
+[
+{"id_prestamo":"1","fecha_salida":"2023-06-15","equipo":"Incubadora para cuidados generales","marca":"Atom","modelo":"incui","no_serie":"2481053","no_inventario":"167696","ubicacion_actual":"Hospital O´Horán","quien_recibio":"Ing. Jorge Carlos"},
+{"id_prestamo":"2","fecha_salida":"2023-06-15","equipo":"Incubadora para cuidados generales","marca":"Atom","modelo":"incui","no_serie":"2481053","no_inventario":"167696","ubicacion_actual":"Hospital O´Horán","quien_recibio":"Ing. Jorge Carlos"}
+]
+}
+]
